@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:id="@+id/container">
+
+   <fragment
+       android:name="vn.edu.usth.usthweather.WeatherFragment"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/weatherFragment">
+
+   </fragment>
+   <fragment
+       android:name="vn.edu.usth.usthweather.ForecastFragment"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/forecastFragment">
+   </fragment>
+
+
+
+</LinearLayout>
